@@ -1,0 +1,18 @@
+﻿Build started 11/12/2015 16:55:34.
+     1>Project "D:\Visual studio\CSC8503 Framework\Game Technologies\Coursework\Coursework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp MyScene.cpp Player.cpp Tardis.cpp
+         Tardis.cpp
+     1>d:\visual studio\csc8503 framework\nclgl\oglrenderer.h(22): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         Player.cpp
+     1>d:\visual studio\csc8503 framework\game technologies\coursework\player.h(3): fatal error C1083: Cannot open include file: 'ncltech\GameObject.h': No such file or directory
+         MyScene.cpp
+     1>d:\visual studio\csc8503 framework\game technologies\coursework\myscene.h(4): fatal error C1083: Cannot open include file: 'nclgl\Mesh.h': No such file or directory
+         main.cpp
+     1>d:\visual studio\csc8503 framework\game technologies\coursework\main.cpp(1): fatal error C1083: Cannot open include file: 'nclgl\Window.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\Visual studio\CSC8503 Framework\Game Technologies\Coursework\Coursework.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.28

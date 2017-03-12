@@ -1,0 +1,41 @@
+﻿Build started 11/12/2015 16:55:28.
+     1>Project "D:\Visual studio\CSC8503 Framework\ncltech\ncltech.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CollisionDetection.cpp CommonMeshes.cpp Constraint.cpp CuboidCollisionShape.cpp NCLDebug.cpp GameObject.cpp Hull.cpp Manifold.cpp PhysicsEngine.cpp PhysicsObject.cpp Scene.cpp SimpleMeshObject.cpp Source.cpp SphereCollisionShape.cpp
+         SphereCollisionShape.cpp
+         Source.cpp
+         SimpleMeshObject.cpp
+         Scene.cpp
+         PhysicsObject.cpp
+         PhysicsEngine.cpp
+         Manifold.cpp
+         Hull.cpp
+         GameObject.cpp
+         NCLDebug.cpp
+         CuboidCollisionShape.cpp
+         Constraint.cpp
+         CommonMeshes.cpp
+         CollisionDetection.cpp
+         Generating Code...
+     1>d:\visual studio\csc8503 framework\ncltech\collisiondetection.cpp(299): warning C4715: 'CollisionDetection::BuildCollisionManifold' : not all control paths return a value
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\Visual studio\CSC8503 Framework\Game Technologies\Debug\ncltech.lib" /NOLOGO Debug\CollisionDetection.obj
+         Debug\CommonMeshes.obj
+         Debug\Constraint.obj
+         Debug\CuboidCollisionShape.obj
+         Debug\NCLDebug.obj
+         Debug\GameObject.obj
+         Debug\Hull.obj
+         Debug\Manifold.obj
+         Debug\PhysicsEngine.obj
+         Debug\PhysicsObject.obj
+         Debug\Scene.obj
+         Debug\SimpleMeshObject.obj
+         Debug\Source.obj
+         Debug\SphereCollisionShape.obj
+         ncltech.vcxproj -> D:\Visual studio\CSC8503 Framework\Game Technologies\Debug\ncltech.lib
+     1>Done Building Project "D:\Visual studio\CSC8503 Framework\ncltech\ncltech.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.20
